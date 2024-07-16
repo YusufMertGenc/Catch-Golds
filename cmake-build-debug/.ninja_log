@@ -1,0 +1,7 @@
+# ninja log v5
+13	1521	7389806416552943	CMakeFiles/Assignment3.dir/Grid.cpp.obj	eed630cebbb0a84b
+33	1257	7426856204745787	CMakeFiles/Assignment3.dir/main.cpp.obj	d7f1bc9d40c1fc33
+0	88	7428572461961688	build.ninja	add7907265ffd2
+1258	1598	7426856208137161	Assignment3.exe	d741dd9351f12963
+18	1491	7389806416157070	CMakeFiles/Assignment3.dir/Element.cpp.obj	b4bda9170bd7d941
+25	1478	7389806416058393	CMakeFiles/Assignment3.dir/Player.cpp.obj	42a023c6e7267f9c
