@@ -11,7 +11,7 @@ void Food::Effect(Player& player) { //if the coordinates matches with "F"
     player.adjustHealth(effect); //it increases player object's health
 
 }
-
+ 
 void Wood::Effect(Player& player) {
     int effect = player.getBoardSize()/8;//the amount of effect is calculated according to instructors
     player.adjustHealth(effect); //it increases player object's health

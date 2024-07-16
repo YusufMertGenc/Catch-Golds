@@ -6,7 +6,7 @@
 #define ASSIGNMENT3_PLAYER_H
 #include <iostream>
 #include "Element.h"
-
+ 
 class Player {
 
 private:

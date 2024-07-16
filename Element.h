@@ -8,7 +8,7 @@
 
 #include <iostream>
 
-using namespace std;
+ using namespace std;
 
 class Player;
 class Element { //it will be abstract class

@@ -5,7 +5,7 @@
 #include "Grid.h"
 
 #include <iostream>
-
+ 
 using namespace std;
 
 void Grid::elementDeploy(int numberOfElements) {
