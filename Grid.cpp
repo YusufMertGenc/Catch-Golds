@@ -93,7 +93,7 @@ void Grid::elementDeploy(int numberOfElements) {
                     grid[coordinateX][coordinateY+2] = 'B';
                 }
                 else if (coordinateY == 4){// if bear is right side of the board
-                    grid[coordinateX][coordinateY-1] = 'B';
+                    grid[coordinateX][coordinateY-1] = 'B'; 
                     grid[coordinateX][coordinateY-2] = 'B';
 
                 }

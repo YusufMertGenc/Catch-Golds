@@ -7,7 +7,7 @@
 
 #include <ctime>
 #include <iostream>
- 
+  
 
 class Grid {
 
