@@ -12,7 +12,7 @@ void Player::goldCounter() {
             adjustHealth(boardSize/4);
         }
 }
-  
+   
 
 void Player::adjustHealth(int adjust) {
     health += adjust;
