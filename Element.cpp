@@ -5,6 +5,19 @@
 #include "Element.h"
 #include "Player.h"
 
+Element::Element() {
+    size = 0;
+    representBoard = 'N'; //non-defined
+    effect = 'N'; //non-defined
+}
+
+Element::Element(int size) {
+
+    this->size = size;
+}
+
+
+
 
 void Food::Effect(Player& player) { //if the coordinates matches with "F"
     int effect = player.getBoardSize()/6; //the amount of effect is calculated according to instructors

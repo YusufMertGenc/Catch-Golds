@@ -18,28 +18,7 @@ private:
 
 public:
 
-    Grid(int size){//Constructor for Grid
-
-        srand(time(NULL));
-
-        this->size = size;
-
-        for (int i = 0; i < size ; i++){
-            for (int j = 0; j<size; j++){
-
-                grid[i][j] = '.';
-            }
-        }
-        for (int i = 0; i < size ; i++){
-            for (int j = 0; j<size; j++){
-
-                HidedGrid[i][j] = '.';
-            }
-        }
-
-
-
-    }
+    Grid(int size);
 
     void hidedGrid (int x,int y,char foundChar);
     void displayCurrentGrid();

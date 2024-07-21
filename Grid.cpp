@@ -8,6 +8,28 @@
  
 using namespace std;
 
+
+Grid::Grid(int size) {
+    
+    srand(time(NULL));
+
+    this->size = size;
+
+    for (int i = 0; i < size; i++) {
+        for (int j = 0; j < size; j++) {
+
+            grid[i][j] = '.';
+        }
+    }
+    for (int i = 0; i < size; i++) {
+        for (int j = 0; j < size; j++) {
+
+            HidedGrid[i][j] = '.';
+        }
+    }
+}
+
+
 void Grid::elementDeploy(int numberOfElements) {
 
     int randomPlacement;// 0 = vertical , 1 = horizontal , 2 = diagonal

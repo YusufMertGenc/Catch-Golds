@@ -5,6 +5,20 @@
 #include "Player.h"
 #include "Element.h"
 
+
+Player::Player(int boardSize) {
+
+    this->boardSize = boardSize;
+    this->health = 2 * boardSize; //according to instructor
+
+    score = 0; //initialy our score is 0
+
+    this->goldCount = 0;
+}
+
+
+
+
 void Player::goldCounter() {
         goldCount++;
         score+= 100; //it will be increase current score 100

@@ -17,15 +17,7 @@ private:
 
 public:
 
-    Player(int boardSize){ //parametic constructor
-        this->boardSize = boardSize;
-        this->health = 2*boardSize; //according to instructor
-
-        score = 0; //initialy our score is 0
-
-        this->goldCount = 0;
-    }
-
+    Player(int boardSize);
 
 
     void goldCounter ();

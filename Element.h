@@ -19,17 +19,10 @@ class Element { //it will be abstract class
 
 
 public:
-    Element(){ //default constructor
-        size = 0;
-        representBoard = 'N'; //non-defined
-        effect = 'N'; //non-defined
+    Element();
 
-    }
-
-    Element(int size){ //parametize constructor
-        this->size = size;
-
-    }
+    Element(int size);
+    
 
     virtual void Effect (Player& player) = 0; //it becomes pure virtual function
     ~Element (){} //destructor
